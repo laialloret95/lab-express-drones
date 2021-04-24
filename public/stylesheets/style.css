@@ -102,8 +102,8 @@ ul {
   margin: 5px
 }
 
-.title {
- margin: 20px;
+h2 {
+ margin: 40px;
  font-size: 40px;
  color: white;
 }
@@ -130,4 +130,62 @@ button {
 
 i {
   margin: 0 !important;
+}
+
+.create-bg {
+  background-image: url('/images/create-drone.jpeg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.form-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.form-container form {
+  display: grid;
+  grid-row-gap: 5px;
+  grid-column-gap: 25px;
+  margin: 20px ;
+  background-color: #eee;
+  width: 25vw;
+  padding: 25px;
+  border-radius: 15px 50px 30px;
+}
+
+.form-container form input {
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.form-container form button {
+    appearance: none;
+    background-color: orange;
+    border: none;
+    font-size: .9375rem;
+    margin: 20px 0;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    border-radius: 15px
+}
+
+.update-bg {
+  background-image: url('/images/edit-drone.jpeg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
 }
